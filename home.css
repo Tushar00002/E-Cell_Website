@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-image: url(./Images/download.png);
+    background-size: cover;
+    font-style: rgb(20, 19, 19);
+    justify-content: center;
+    box-shadow: #fff;
+    position: sticky;
+    
+    top: 0%;
+    
+}
+nav{
+    flex: 1;
+    text-align: left;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+   
+    
+
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    padding: 0 10px;
+   
+    
+    
+}
+.navbar a{
+    text-decoration: none;
+    color:rgb(9, 9, 9);
+    font-size: 16px;
+    position: relative;
+   
+}
+  
+.navbar a:hover,
+.navbar a.active{
+
+    color: rgb(147, 200, 246);
+    transition: 0.3s ease;
+} 
+.navbar a.active::after,
+.navbar a:hover::after{
+    content:"";
+    width: 80%;
+    height: 2px;
+    background: rgb(147, 200, 246);
+    position: absolute;
+    bottom: -4px;
+    left: 3px;
+}
+/* ////////////////////////////////////////////// */
+
+.banner
+{
+    background-color: black;
+    background-image: url(./ba.png);
+    background-position: -100px;
+    background-size: cover;
+    height: 90vh;
+    align-items: center;
+}
+.two
+{   
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(237, 251, 251);
+}
+.three{
+    background-color:  rgb(237, 251, 251);
+}
+
+.tiles
+
+{
+    height: 35vh;
+    width: 50vh;
+    background-color: #fff;
+    
+    margin-top: -5%;
+    border-radius: 20px;
+    border: 1px solid white;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+              -6px -6px 10px -1px rgba(0,0,0,0.15);
+}
+.img
+{
+    height: 25vh;
+    background-image: url(./Images/contest4.png);
+    background-size: cover;
+    border-radius:20px ;
+}
+.bott
+{
+    padding: 10px;
+
+}
+.img1
+{
+    height: 25vh;
+    background-image: url(./Images/contest1.png);
+    background-size: cover;
+    border-radius:20px ;
+}
+.three
+{   margin-top: 8%;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.img2
+{
+    height: 25vh;
+    background-image: url(./Images/contest3.png);
+    background-size: cover;
+    border-radius:20px ;
+}
+.img3
+{
+    height: 25vh;
+    background-image: url(./Images/contest4.png);
+    background-size: cover;
+    border-radius:20px ;
+}
+.img4
+{
+    height: 25vh;
+    background-image: url(./Images/contest5.png);
+    background-size: cover;
+    border-radius:20px ;
+}
+
+.con
+{
+    background-color:  rgb(237, 251, 251);
+    
+}
+.box
+{
+    background-color:  rgb(237, 251, 251);
+    height: 190vh;
+}
+.contest
+{
+    height: 180vh;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+              -6px -6px 10px -1px rgba(0,0,0,0.15);
+}
+#PC
+{   font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+ 
+}
+#MC
+{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 2%;
+    
+}
+.clicked
+{
+    background-color:white;
+    border: 1px solid white;
+}
+.head
+{
+    padding: 30px;
+}
+/* ////////////////////////////////////////////// */
+
+.contest1
+{   margin-top:5% ;
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.image1
+{
+    min-width: 20%;
+    margin-right: 0%;
+    background-image: url("/Images/contest2.png");
+    background-size: cover;
+    height: 20vh;
+    border-radius: 20px;
+}
+.image2
+{
+    min-width: 20%;
+    margin-right: 0%;
+    background-image: url("/Images/contest3.png");
+    background-size: cover;
+    height: 20vh;
+    border-radius: 20px;
+}
+.image3
+{
+    min-width: 20%;
+    margin-right: 0%;
+    background-image: url("/Images/contest2.png");
+    background-size: cover;
+    height: 20vh;
+    border-radius: 20px;
+}
+.image4
+{
+    min-width: 20%;
+    margin-right: 0%;
+    background-image: url("/Images/contest2.png");
+    background-size: cover;
+    height: 20vh;
+    border-radius: 20px;
+}
+.gg {
+    margin-left: 90%;
+    display: flex;
+    
+    color: rgb(137, 137, 137);
+}
+.gg svg{
+    width: 20px;
+    
+}
+.info
+{
+    min-width: 70%;
+    padding-top:3%;
+}
+#virt
+{
+    margin-left: 90%;
+    padding:7px 10px 7px 10px;
+    color: rgb(157, 34, 185);
+    background-color: #ddd;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.next
+{   margin-top: 2%;
+    margin-left: 75%;
+    padding: 20px;
+    height: 10vvh;
+    align-items: right;
+}
+
+.pagination a {
+  color: black;
+  background-color: #ddd;
+  border-radius: 8px;
+  box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+  -6px -6px 10px -1px rgba(0,0,0,0.15);
+  margin: 2px;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+
+.pagination a.active {
+  background-color: white;
+  color: rgb(6, 6, 6);
+}
+
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
