@@ -64,6 +64,40 @@ nav ul li{
     bottom: -4px;
     left: 3px;
 }
+.right
+{
+    min-width: 10%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-items: center;
+    height: 10vh;
+    
+}
+.pre{
+    padding: 60px;
+    margin-top: -5%;    
+
+    
+}
+.pre p
+{
+    border: 1px solid rgb(230, 238, 240);
+    background-color: rgb(230, 238, 240);
+    padding: 5px 10px;
+    color:orange;
+    font-size: 20px;
+    cursor: pointer;
+}
+.pro{
+    width: 50px;
+    padding-left: 20px;
+    cursor: pointer;
+    margin-bottom: 5%;
+    
+    
+}
 /* ////////////////////////////////////////////// */
 
 .banner
