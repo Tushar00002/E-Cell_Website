@@ -71,10 +71,10 @@ nav ul li{
 {
     display: flex;
     flex-wrap: wrap;
-   
+   margin: 1%;
     justify-content: center;
     padding-left: 40px;
-    background-color: rgb(223, 223, 222);
+    background-color: rgb(230, 238, 240);
     height: 230vh;
 }
 .col1
@@ -91,7 +91,7 @@ nav ul li{
 .col2
 {
     min-width: 60%;
-    background-color: rgb(223, 223, 222);
+    background-color: rgb(230, 238, 240);
     margin: 2%;
     
 }
@@ -120,7 +120,7 @@ nav ul li{
     min-width: 30%;
     width: 100%;
     height: 100%;
-    border: 1px solid rgb(246, 243, 243);
+    border: 1px solid  rgb(230, 238, 240);
     border-radius: 50%; 
     display: flex;
     align-items: center;  
@@ -164,14 +164,15 @@ circle{
 .text_solve
 {
   min-width: 50%;
+ 
 }
 .text_solve h1{
     
     padding: 10px;
-    border: 1px solid rgb(197, 199, 199);
+    border: 1px solid aquamarine;
     border-radius: 20px;
-  
     background-color: aquamarine;
+    
     box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
     -6px -6px 10px -1px rgba(0,0,0,0.15);;
 }
@@ -180,7 +181,7 @@ circle{
     margin-top:10%;
     padding-top: 20px;
     border-radius: 20px;
-    background-color:rgb(197, 199, 199);
+    background-color: rgb(230, 238, 240);
 }
 .textback p{
     padding-left: 10%;
@@ -236,20 +237,35 @@ circle{
 .head{
     padding: 20px;
     border-radius: 20px;
+    margin-left:1% ;
+    
    
+
 }
-.head li
-{   
+.clicked
+{
+    background-color:white;
+    border: 1px solid white;
+}
+
+.head button
+{   display: inline-block;
     border: 1px solid black;
     border-radius: 5px;
     padding: 10px;
-    background-color: rgb(176, 175, 173);
+    background-color:  rgb(230, 238, 240);
+    border: 1px solid  rgb(230, 238, 240);
+}
+.a
+{
+    background-color: #fff;
+    border: 1px solid white;
 }
 .prob1
 {  
     margin-left: 3%;
     margin-right: 3%;
-    background-color: rgb(223, 223, 222);
+    background-color:  rgb(230, 238, 240);
     font-size: 20px;
     font-weight: bold;
     
@@ -306,8 +322,8 @@ circle{
 .edit
 {
     margin-top: 7%;
-    border: 1px solid rgb(223, 223, 222);;
-    background-color:rgb(223, 223, 222); ;
+    border: 1px solid  rgb(230, 238, 240);
+    background-color: rgb(230, 238, 240) ;
     border-radius: 10px;
     padding-left: 35%;
     padding-right: 35%;
@@ -375,7 +391,7 @@ left: 5%;
 }
 hr
 {
-    color:rgb(223, 223, 222) ;
+    color: rgb(230, 238, 240) ;
 }
 .ico{
 display: flex;
@@ -401,7 +417,7 @@ justify-content: space-around;
     border: 1px solid;
     width: 40px;
     border-radius: 20px;
-    background-color: rgb(223, 223, 222);
+    background-color:  rgb(230, 238, 240);
 }
 .sec4 h4{
     padding-left:60% ;
@@ -416,7 +432,7 @@ justify-content: space-around;
     width: 170px;
     padding: 5px;
     border-radius: 20px;
-    background-color: rgb(223, 223, 222);
+    background-color:  rgb(230, 238, 240);
 }
 .but
 {   
