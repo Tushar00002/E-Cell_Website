@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.navbar{
+    
+    
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    background-color: antiquewhite;
+    font-style: #fff;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+}
+.navbar a{
+    
+        text-decoration: none;
+        color:rgb(251, 251, 250);
+        font-size: 16px;
+        
+       
+    
+}
+.navbar a:hover,
+.navbar a.active{
+
+    color: rgb(147, 200, 246);
+    transition: 0.3s ease;
+} 
+.navbar a.active::after,
+.navbar a:hover::after{
+    content:"";
+    width: 80%;
+    height: 2px;
+    background: rgb(147, 200, 246);
+    position: absolute;
+    bottom: -4px;
+    left: 3px;
+}
+.logo
+{
+    background-image: url(/3700_2_08.jpg);
+}
+
+nav{
+    
+    flex: 1;
+    text-align: left;
+    
+}
+
+nav ul{
+    padding-top: 10px;
+    display: inline-block;
+    list-style: none;
+    padding-bottom: 10px;
+}
+nav ul li{
+    display: inline-block;
+}
+.navbar a{
+    font-size: 16px;
+   
+    padding: 10px;
+    color:black ;
+}
+.page
+{  
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:rgb(227, 246, 251);
+    padding: 5%;
+   
+    
+    
+}
+.profile
+{  
+    background-color: rgb(68, 70, 69);
+    min-width: 20%;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 1%;
+    
+    height:100vh;
+    
+
+}
+.photo
+{
+    height: 10%;
+    background-color: aliceblue;
+    background-image: url(./3700_2_08.jpg);
+    width: 10%;
+
+}
+
+.name
+{
+    background-color:aliceblue ;
+    height: 10vh;
+}
+.col2
+{
+    height:50vh;
+    background-color: rgb(34, 34, 33);
+    min-width: 70%;
+   
+    
+    
+    
+   
+   
+    
+}
+.row1
+{
+    
+    background-color: rgb(34, 34, 33);
+    min-width: 80%;
+    border-radius: 10px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+    
+    margin: 1%;
+}
+.solve
+{ 
+  
+  height:30vh;
+  background-color: rgb(139, 142, 141);
+  min-width: 47%;
+  border-radius: 20px;
+  margin:1%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.badges
+{ 
+  
+  height:30vh;
+  background-color: rgb(68, 70, 69);
+  min-width: 47%;
+  border-radius: 20px;
+  margin:1%;
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+}
+.row2
+{
+    height: 50%;
+    background-color: rgb(68, 70, 69);
+    border-radius: 20px;
+    margin:3%;
+}
+.row3
+{
+    height: 80%;
+    background-color: rgb(68, 70, 69);
+    border-radius: 20px;
+    margin:3%;
+}
+.Name {
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+   color: aliceblue;
+}
+.user
+{   
+    height: 15vh;
+    min-width: 40%;
+    padding:2%;
+    margin: 2%;
+    border-radius: 20px;
+    background-color:#fff ;
+    background-image: url(./profile.jpg);
+    background-size:cover;
+}
+.username
+{   min-width: 50%;
+    height: 10%;
+    padding-top:10px;
+    padding-left: 20px;
+    
+}
+.Photo{
+    height: 10%;
+    background-color: aliceblue;
+}
+.Edit
+{
+    margin-top: 20%;
+    height: 7%;
+    background-color: chartreuse;
+    border-radius: 20px;
+}
+.community 
+{
+    color: #fff;
+}
+.Circlebar
+{   
+    min-width: 40%;
+    height: 160px;
+   width: 160px;
+   position: relative;
+  
+
+
+}
+.outer
+{
+   height: 160px;
+   width: 160px;
+   border-radius: 50%;
+   border: 1px solid red;
+   padding: 20px;
+   box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+              -6px -6px 10px -1px rgba(255,255,255,0.7)
+}
+.inner
+{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px  6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px rgba(255,255,255,1),
+                0,5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+}
+#number
+{
+    font-weight: 600px;
+    color: #555;
+
+}
+circle{
+    
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 2s linear forwards;
+
+
+
+}
+.text
+{   
+    min-width: 40%;
+}
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* Row 1 Element Badges */
+.Circlebar1
+{
+    min-width: 33%;
+    height: 160px;
+   width: 160px;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.Circlebar2
+{
+    min-width: 33%;
+    height: 160px;
+   width: 160px;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.Circlebar3
+{
+    min-width: 33%;
+    height: 160px;
+   width: 160px;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+a{
+    color: #fff;
+}
+
+@keyframes anim{
+    100%{
+        stroke-dashoffset: 100;
+    }
+}
+@media (max-width:500px)  {
+
+    .profile{
+        min-width: 100%;
+    }
+}

@@ -69,7 +69,7 @@ nav ul li{
 .banner
 {
     background-color: black;
-    background-image: url(./ba.png);
+    background-image: url(./Images/ba.png);
     background-position: -100px;
     background-size: cover;
     height: 90vh;
@@ -159,7 +159,7 @@ nav ul li{
     height: 190vh;
 }
 .contest
-{
+{  
     height: 180vh;
     margin-left: 2%;
     margin-right: 2%;
@@ -168,26 +168,21 @@ nav ul li{
     box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
               -6px -6px 10px -1px rgba(0,0,0,0.15);
 }
-#PC
+
+.PC
 {   font-size: 18px;
     font-weight: bold;
     padding: 20px;
     border-radius: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid white;
+    background-color:white;
  
 }
-#MC
+
+
+.PC--selected
 {
-    font-size: 18px;
-    font-weight: bold;
-    padding: 20px;
-    border-radius: 10px;
-    margin-left: 2%;
-    
-}
-.clicked
-{
-    background-color:white;
+    background-color: #ddd;
     border: 1px solid white;
 }
 .head
@@ -234,6 +229,51 @@ nav ul li{
     min-width: 20%;
     margin-right: 0%;
     background-image: url("/Images/contest2.png");
+    background-size: cover;
+    height: 20vh;
+    border-radius: 20px;
+}
+.image5
+{
+    min-width: 20%;
+    margin-right: 0%;
+    background-image: url("/Images/contest5.png");
+    background-size: cover;
+    height: 20vh;
+    border-radius: 20px;
+}
+.image6
+{
+    min-width: 20%;
+    margin-right: 0%;
+    background-image: url("/Images/contest4.png");
+    background-size: cover;
+    height: 20vh;
+    border-radius: 20px;
+}
+.image7
+{
+    min-width: 20%;
+    margin-right: 0%;
+    background-image: url("/Images/contest3.png");
+    background-size: cover;
+    height: 20vh;
+    border-radius: 20px;
+}
+.image8
+{
+    min-width: 20%;
+    margin-right: 0%;
+    background-image: url("/Images/contest2.png");
+    background-size: cover;
+    height: 20vh;
+    border-radius: 20px;
+}
+.image9
+{
+    min-width: 20%;
+    margin-right: 0%;
+    background-image: url("/Images/contest1.png");
     background-size: cover;
     height: 20vh;
     border-radius: 20px;
@@ -292,3 +332,12 @@ nav ul li{
 
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
+
+.contain1
+{
+    display: none;
+}
+.contain1--selected
+{
+    display: block;
+}
